@@ -1,5 +1,5 @@
 # Snake Game
-A classic Snake game implemented in C# for the console, featuring colorful graphics, progressive difficulty, and score tracking.
+A classic Snake game implemented in C# for the console, featuring progressive difficulty, and score tracking.
 
 ## Setup
 
