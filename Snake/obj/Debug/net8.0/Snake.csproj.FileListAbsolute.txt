@@ -1,0 +1,15 @@
+/workspaces/snakeGame/Snake/bin/Debug/net8.0/Snake
+/workspaces/snakeGame/Snake/bin/Debug/net8.0/Snake.deps.json
+/workspaces/snakeGame/Snake/bin/Debug/net8.0/Snake.runtimeconfig.json
+/workspaces/snakeGame/Snake/bin/Debug/net8.0/Snake.dll
+/workspaces/snakeGame/Snake/bin/Debug/net8.0/Snake.pdb
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.AssemblyInfoInputs.cache
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.AssemblyInfo.cs
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.csproj.CoreCompileInputs.cache
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.sourcelink.json
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.dll
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/refint/Snake.dll
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.pdb
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/Snake.genruntimeconfig.cache
+/workspaces/snakeGame/Snake/obj/Debug/net8.0/ref/Snake.dll
