@@ -1,20 +1,23 @@
 ﻿using Snake;
 
 // Game configuration
+const int GRID_WIDTH = 50;
+const int GRID_HEIGHT = 20;
+const int STARTING_TAIL_LENGTH = 1;
+const int STARTING_DELAY = 100;
 const int SPEED_INCREASE_THRESHOLD = 5;
 const int SPEED_INCREASE_AMOUNT = 5;
 const int POINTS_PER_APPLE = 10;
 
 // Game state variables
 Random random = new Random();
-Coord gridDimensions = new Coord(50, 20);
+Coord gridDimensions = new Coord(GRID_WIDTH, GRID_HEIGHT);
 Coord snakePos = new Coord(10, 1);
 Direction movementDirection = Direction.Down;
 Direction lastMovementDirection = Direction.Down;
 List<Coord> snakePosHistory = new List<Coord>();
-
-int tailLength = 1;
-int frameDelayMilli = 100;
+int tailLength = STARTING_TAIL_LENGTH;
+int frameDelayMilli = STARTING_DELAY;
 int score = 0;
 int highScore = 0;
 bool gameOver = false;
@@ -226,12 +229,12 @@ void ResetGame()
 {
     // Reset all game state variables
     score = 0;
-    tailLength = 1;
+    tailLength = STARTING_TAIL_LENGTH;
     snakePos = new Coord(10, 1);
     snakePosHistory.Clear();
     movementDirection = Direction.Down;
     lastMovementDirection = Direction.Down;
-    frameDelayMilli = 100;
+    frameDelayMilli = STARTING_DELAY;
     applePos = GenerateApplePosition();
 }
 
